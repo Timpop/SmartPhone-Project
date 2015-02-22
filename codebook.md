@@ -47,3 +47,11 @@ download.file(fileUrl, destfile = "Dataset.zip", method = "auto")
 unzip("Dataset.zip")
 ```
 read.table is used to load the data of the activities and the subject for both test and training datasets.
+
+colnames is used to assign data column name
+
+merge is used to relatively quick merge of two data.tables based on common key columns
+
+aggregate is used to splits the data into subsets, computes summary statistics for each, and returns the result in a convenient form.
+
+write.table is used to  a Unix-style file on Windows which is converting to a data frame
